@@ -1,6 +1,6 @@
 const electron = require("electron")
 const fs =  require("fs")
-const uuid = require("uuid")
+const uuid = require("uuid").v4;
 
 const {app,  BrowserWindow, ipcMain, Menu} = electron
 
